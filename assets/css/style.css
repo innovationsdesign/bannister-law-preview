@@ -1145,6 +1145,15 @@ textarea {
     object-position: center 16%;
   }
 
+  .image-panel img,
+  .split-section .image-panel img {
+    height: auto;
+    max-height: 360px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 18%;
+  }
+
   .dark-cta::after {
     background:
       linear-gradient(90deg, rgba(9, 9, 9, 0.88), rgba(9, 9, 9, 0.70)),
